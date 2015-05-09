@@ -22,3 +22,5 @@ $( window ).on( 'breakpointChange', function( e, data ) {
 	console.log( 'Deactivated Breakpoint: ' + data.deactivatedBreakpoint );
 } );
 ```
+
+It's literally that simple.
