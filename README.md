@@ -2,7 +2,7 @@
 
 **Simple breakpoint events for responsive JS.**
 
-##Define your breakpoints (*desktop is set by default*):
+###Define your breakpoints (*desktop is set by default*):
 
 ```
 $( window ).breakpoints( {
@@ -14,7 +14,7 @@ $( window ).breakpoints( {
 } );
 ```
 
-##Subscribe to a breakpoint event:
+###Subscribe to a breakpoint event:
 
 ```
 $( window ).on( 'breakpointChange', function( e, data ) {
