@@ -7,9 +7,9 @@
 ```
 $( window ).breakpoints( {
 	breakpoints : { 
-		'mobile-small' : 320,
 		'mobile' : 640,
-		'tablet' : 1024
+		'mini-tablet' : 1024,
+		'tablet' : 1280
 	}
 } );
 ```
