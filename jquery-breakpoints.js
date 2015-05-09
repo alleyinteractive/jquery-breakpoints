@@ -1,5 +1,4 @@
-
-n( $ ) {
+( $ ) {
 
 	$.fn.breakpoints = function( args ) {
 
