@@ -4,7 +4,7 @@
 	"ignore": [
 		"**/.*",
 	],
-	"homepage": "https://github.com/alleyinteractive/jquery-breakpoints"
+	"homepage": "https://github.com/alleyinteractive/jquery-breakpoints",
 	"authors": [
 		"amaschas"
 	],
