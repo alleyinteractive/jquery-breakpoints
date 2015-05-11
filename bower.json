@@ -1,8 +1,9 @@
 {
-	"name": "jquery-breakpoints.js",
+	"name": "jquery-breakpoints",
+	"main": "jquery-breakpoints.js",
 	"version": "0.0.3",
 	"ignore": [
-		"**/.*",
+		"**/.*"
 	],
 	"homepage": "https://github.com/alleyinteractive/jquery-breakpoints",
 	"authors": [
