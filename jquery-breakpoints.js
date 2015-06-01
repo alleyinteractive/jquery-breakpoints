@@ -13,7 +13,7 @@
 
 		// Sort the breakpoints array
 		settings.breakpoints = $.map( settings.breakpoints, function( breakpointWidth, breakpointID ){
-			return { breakpointID, breakpointWidth };
+			return { breakpointID : breakpointWidth };
 		} ).sort( function( a, b ) {
 			return a.breakpointWidth - b.breakpointWidth;
 		} );
