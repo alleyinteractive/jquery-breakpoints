@@ -21,11 +21,11 @@
 		// Initial breakpoint on document ready
 		$( document ).ready( function() {
 			getBreakpoint();
-		} );
-		
-		// Check breakpoint on window resize
-		$( window ).resize( function() {
-			getBreakpoint();
+
+			// Check breakpoint on window resize
+			$( window ).resize( function() {
+				getBreakpoint();
+			} );
 		} );
 
 		// Checks the breakpoints and dispatches events
