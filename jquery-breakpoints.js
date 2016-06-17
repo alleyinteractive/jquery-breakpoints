@@ -37,7 +37,7 @@
 
 			// Compare sorted breakpoint list
 			$.each( settings.breakpoints, function( index, breakpoint ) {
-				var width = $( window ).width();
+				var width = $( window ).outerWidth();
 
 				// Break on first breakpoint larger than window width
 				if ( breakpoint.breakpointWidth >= width ) {
